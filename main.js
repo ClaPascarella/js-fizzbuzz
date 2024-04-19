@@ -14,11 +14,18 @@ for (let i= 1; i<= 100; i++) {
 
     const numThree = i;
     const numFour = 5;
+    
     if (numThree % numFour == 0) {
        console.log(`Buzz`);
     }
 
+   const numFive = i;
+   const numSix = 15;
    
+
+   if (numFive % numSix ==0) {
+    console.log(`FizzBuzz`)
+   }
 
     
     
